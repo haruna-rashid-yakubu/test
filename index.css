@@ -2,6 +2,7 @@ html {
     margin: 0;
     padding: 0;
     border: none;
+    font-size: 10px;
 }
 
 body {
@@ -9,5 +10,19 @@ body {
     padding: 0;
     border: none;
     overflow-x: hidden;
-    font-size: 10px;
+    width: 100vw;
+}
+
+.test {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    font-size: 3rem;
+}
+.test__box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black; 
 }
